@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.roman.webApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai.roman.webApi.Controllers.LoginController.#ctor">
+            <summary>
+            Instancia o objeto _habilidadeRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="M:senai.roman.webApi.Controllers.ProjetosController.#ctor">
+            <summary>
+            Instancia o objeto _projetoRepository para que haja a referência aos métodos do repositório
+            </summary>
+        </member>
+        <member name="M:senai.roman.webApi.Controllers.ProjetosController.Listar">
+            <summary>
+            Lista todos os Projetos
+            </summary>
+            <returns>Uma lista de projetos</returns>
+        </member>
+        <member name="M:senai.roman.webApi.Controllers.ProjetosController.Cadastro(senai.roman.webApi.Domains.Projeto)">
+            <summary>
+            Cadastra um novo projeto
+            </summary>
+            <param name="novoProjeto"> objeto com o projeto a ser cadastrado</param>
+            <returns> status code 201 </returns>
+        </member>
+        <member name="M:senai.roman.webApi.Interfaces.IProjetoRepository.Cadastrar(senai.roman.webApi.Domains.Projeto)">
+            <summary>
+            Cadastra um novo projeto
+            </summary>
+            <param name="novoProjeto">objeto com os dados do novo projeto</param>
+        </member>
+        <member name="M:senai.roman.webApi.Repositories.ProjetoRepository.Cadastrar(senai.roman.webApi.Domains.Projeto)">
+            <summary>
+            Cadastra um novo projeto
+            </summary>
+            <param name="novoProjeto">novo projeto a ser criado</param>
+        </member>
+        <member name="M:senai.roman.webApi.Repositories.ProjetoRepository.Listar">
+            <summary>
+            Lista todos os projetos
+            </summary>
+            <returns>Uma lista de projetos</returns>
+        </member>
+    </members>
+</doc>
