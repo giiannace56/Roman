@@ -7539,11 +7539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\senai.roman.webApi\\senai.roman.webApi\\senai.roman.webApi.csproj",
+      "projectUniqueName": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\Back-End\\senai.roman.webApi\\senai.roman.webApi\\senai.roman.webApi.csproj",
       "projectName": "senai.roman.webApi",
-      "projectPath": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\senai.roman.webApi\\senai.roman.webApi\\senai.roman.webApi.csproj",
+      "projectPath": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\Back-End\\senai.roman.webApi\\senai.roman.webApi\\senai.roman.webApi.csproj",
       "packagesPath": "C:\\Users\\caicm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\senai.roman.webApi\\senai.roman.webApi\\obj\\",
+      "outputPath": "C:\\Users\\caicm\\OneDrive\\Área de Trabalho\\Roman\\Back-End\\senai.roman.webApi\\senai.roman.webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caicm\\AppData\\Roaming\\NuGet\\NuGet.Config",

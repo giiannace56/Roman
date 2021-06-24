@@ -93,7 +93,7 @@ namespace senai.roman.webApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Gufi.webApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Roman.webApi");
                 c.RoutePrefix = string.Empty;
             });
 
